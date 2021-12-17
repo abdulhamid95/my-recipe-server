@@ -7,7 +7,6 @@ const isLoggedIn = require('../middlewares/authentication');
 const upload = require('../middlewares/upload');
 const {userValidationRules, updateUserValidationRules, postValidationRules, commentValidationRules, validate} = require('../middlewares/validator');
 
-
 const router = express.Router()
 
 router.get('/', (req, res) => {
