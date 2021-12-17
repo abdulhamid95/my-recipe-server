@@ -14,5 +14,4 @@ Comment.associate = models => {
     Comment.belongsTo(models.Post);
 }
 
-
 module.exports = Comment;
